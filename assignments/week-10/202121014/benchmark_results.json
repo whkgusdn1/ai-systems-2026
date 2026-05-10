@@ -1,0 +1,33 @@
+{
+  "note": "Sample placeholder metrics. Actual DGX execution is required to refresh this file.",
+  "results": {
+    "1": {
+      "concurrency": 1,
+      "avg_ttft_ms": 420.5,
+      "p50_ttft_ms": 420.5,
+      "p99_ttft_ms": 420.5,
+      "avg_throughput_tps": 58.2,
+      "total_throughput_tps": 58.2,
+      "success_rate": 1.0
+    },
+    "4": {
+      "concurrency": 4,
+      "avg_ttft_ms": 615.2,
+      "p50_ttft_ms": 602.4,
+      "p99_ttft_ms": 711.8,
+      "avg_throughput_tps": 54.7,
+      "total_throughput_tps": 210.9,
+      "success_rate": 1.0
+    },
+    "8": {
+      "concurrency": 8,
+      "avg_ttft_ms": 892.7,
+      "p50_ttft_ms": 875.1,
+      "p99_ttft_ms": 1050.3,
+      "avg_throughput_tps": 49.6,
+      "total_throughput_tps": 381.2,
+      "success_rate": 0.875
+    }
+  }
+}
+

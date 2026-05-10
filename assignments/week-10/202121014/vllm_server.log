@@ -1,0 +1,22 @@
+INFO 05-10 12:00:00 api_server.py:153] vLLM API server version 0.x sample log
+INFO 05-10 12:00:00 api_server.py:154] Starting OpenAI-compatible server on 0.0.0.0:8000
+INFO 05-10 12:00:01 config.py:201] model=/home/user/models/deepseek-coder-v2-lite
+INFO 05-10 12:00:01 config.py:202] dtype=bfloat16, tensor_parallel_size=2
+INFO 05-10 12:00:01 config.py:203] gpu_memory_utilization=0.90
+INFO 05-10 12:00:01 config.py:204] max_model_len=32768
+INFO 05-10 12:00:02 tokenizer.py:88] trust_remote_code=True
+INFO 05-10 12:00:05 engine.py:411] Loading model weights shard 1/2
+INFO 05-10 12:00:07 engine.py:411] Loading model weights shard 2/2
+INFO 05-10 12:00:12 engine.py:525] CUDA graphs initialized
+INFO 05-10 12:00:13 api_server.py:231] Application startup complete
+INFO 05-10 12:01:10 access.py:41] 127.0.0.1:53210 - "GET /health HTTP/1.1" 200
+INFO 05-10 12:01:22 access.py:41] 127.0.0.1:53230 - "POST /v1/chat/completions HTTP/1.1" 200
+INFO 05-10 12:01:22 metrics.py:73] prompt_tokens=23 completion_tokens=178 latency_ms=1850
+INFO 05-10 12:01:50 access.py:41] 127.0.0.1:53244 - "POST /v1/chat/completions HTTP/1.1" 200
+INFO 05-10 12:01:50 metrics.py:73] prompt_tokens=19 completion_tokens=164 latency_ms=1734
+INFO 05-10 12:02:04 access.py:41] 127.0.0.1:53261 - "POST /v1/chat/completions HTTP/1.1" 200
+INFO 05-10 12:02:04 metrics.py:73] prompt_tokens=15 completion_tokens=121 latency_ms=1412
+INFO 05-10 12:02:25 scheduler.py:301] waiting=0 running=1 swapped=0
+INFO 05-10 12:02:55 scheduler.py:301] waiting=0 running=0 swapped=0
+INFO 05-10 12:03:10 benchmark.py:99] Sample log only. Replace with real DGX output after deployment.
+
